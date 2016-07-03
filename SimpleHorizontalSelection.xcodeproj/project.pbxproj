@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C1272D1CCEAB5400D29403 /* SimpleHorizontalSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C1272C1CCEAB5400D29403 /* SimpleHorizontalSelection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C127771CCEAC4100D29403 /* SimpleHorizontalSelectionControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C127761CCEAC4100D29403 /* SimpleHorizontalSelectionControl.swift */; };
+		43C1277B1CCEAC8A00D29403 /* CommonInitStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C1277A1CCEAC8A00D29403 /* CommonInitStackView.swift */; };
+		43C1277D1CCEAEAA00D29403 /* SHSStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C1277C1CCEAEAA00D29403 /* SHSStackView.swift */; };
+		43C1277F1CCEB23B00D29403 /* SHSDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C1277E1CCEB23B00D29403 /* SHSDelegate.swift */; };
+		43C127811CCEB4F900D29403 /* ActionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C127801CCEB4F900D29403 /* ActionKit.swift */; };
+		43C127831CCEB78C00D29403 /* UIControl+ActionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C127821CCEB78C00D29403 /* UIControl+ActionKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43C127291CCEAB5400D29403 /* SimpleHorizontalSelection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleHorizontalSelection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C1272C1CCEAB5400D29403 /* SimpleHorizontalSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleHorizontalSelection.h; sourceTree = "<group>"; };
+		43C1272E1CCEAB5400D29403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C127761CCEAC4100D29403 /* SimpleHorizontalSelectionControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleHorizontalSelectionControl.swift; sourceTree = "<group>"; };
+		43C1277A1CCEAC8A00D29403 /* CommonInitStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonInitStackView.swift; sourceTree = "<group>"; };
+		43C1277C1CCEAEAA00D29403 /* SHSStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHSStackView.swift; sourceTree = "<group>"; };
+		43C1277E1CCEB23B00D29403 /* SHSDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHSDelegate.swift; sourceTree = "<group>"; };
+		43C127801CCEB4F900D29403 /* ActionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionKit.swift; sourceTree = "<group>"; };
+		43C127821CCEB78C00D29403 /* UIControl+ActionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+ActionKit.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C127251CCEAB5400D29403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C1271F1CCEAB5400D29403 = {
+			isa = PBXGroup;
+			children = (
+				43C1272B1CCEAB5400D29403 /* SimpleHorizontalSelection */,
+				43C1272A1CCEAB5400D29403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43C1272A1CCEAB5400D29403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C127291CCEAB5400D29403 /* SimpleHorizontalSelection.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C1272B1CCEAB5400D29403 /* SimpleHorizontalSelection */ = {
+			isa = PBXGroup;
+			children = (
+				43C1272C1CCEAB5400D29403 /* SimpleHorizontalSelection.h */,
+				43C127761CCEAC4100D29403 /* SimpleHorizontalSelectionControl.swift */,
+				43C1277E1CCEB23B00D29403 /* SHSDelegate.swift */,
+				43C1277C1CCEAEAA00D29403 /* SHSStackView.swift */,
+				43C1277A1CCEAC8A00D29403 /* CommonInitStackView.swift */,
+				43C1272E1CCEAB5400D29403 /* Info.plist */,
+				43C127801CCEB4F900D29403 /* ActionKit.swift */,
+				43C127821CCEB78C00D29403 /* UIControl+ActionKit.swift */,
+			);
+			path = SimpleHorizontalSelection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43C127261CCEAB5400D29403 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C1272D1CCEAB5400D29403 /* SimpleHorizontalSelection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43C127281CCEAB5400D29403 /* SimpleHorizontalSelection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C127311CCEAB5400D29403 /* Build configuration list for PBXNativeTarget "SimpleHorizontalSelection" */;
+			buildPhases = (
+				43C127241CCEAB5400D29403 /* Sources */,
+				43C127251CCEAB5400D29403 /* Frameworks */,
+				43C127261CCEAB5400D29403 /* Headers */,
+				43C127271CCEAB5400D29403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleHorizontalSelection;
+			productName = SimpleHorizontalSelection;
+			productReference = 43C127291CCEAB5400D29403 /* SimpleHorizontalSelection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C127201CCEAB5400D29403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Unleash.me;
+				TargetAttributes = {
+					43C127281CCEAB5400D29403 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 43C127231CCEAB5400D29403 /* Build configuration list for PBXProject "SimpleHorizontalSelection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43C1271F1CCEAB5400D29403;
+			productRefGroup = 43C1272A1CCEAB5400D29403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43C127281CCEAB5400D29403 /* SimpleHorizontalSelection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C127271CCEAB5400D29403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C127241CCEAB5400D29403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C1277D1CCEAEAA00D29403 /* SHSStackView.swift in Sources */,
+				43C1277F1CCEB23B00D29403 /* SHSDelegate.swift in Sources */,
+				43C127831CCEB78C00D29403 /* UIControl+ActionKit.swift in Sources */,
+				43C1277B1CCEAC8A00D29403 /* CommonInitStackView.swift in Sources */,
+				43C127771CCEAC4100D29403 /* SimpleHorizontalSelectionControl.swift in Sources */,
+				43C127811CCEB4F900D29403 /* ActionKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43C1272F1CCEAB5400D29403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43C127301CCEAB5400D29403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43C127321CCEAB5400D29403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SimpleHorizontalSelection/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.unleash.SimpleHorizontalSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43C127331CCEAB5400D29403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SimpleHorizontalSelection/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.unleash.SimpleHorizontalSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C127231CCEAB5400D29403 /* Build configuration list for PBXProject "SimpleHorizontalSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C1272F1CCEAB5400D29403 /* Debug */,
+				43C127301CCEAB5400D29403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C127311CCEAB5400D29403 /* Build configuration list for PBXNativeTarget "SimpleHorizontalSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C127321CCEAB5400D29403 /* Debug */,
+				43C127331CCEAB5400D29403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43C127201CCEAB5400D29403 /* Project object */;
+}
