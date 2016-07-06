@@ -12,10 +12,11 @@ import SimpleHorizontalSelection
 class ViewController: UIViewController, SHSDelegate {
 
     @IBOutlet weak var selection: SimpleHorizontalSelectionControl!
+    @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        selection.set(["Hi","Hola","Buenos Dias"])
+        selection.update(["Hi","Hola","Buenos Dias"])
         selection.unselectedTextColor = UIColor.blueColor()
         selection.selectedTextColor = UIColor.greenColor()
         selection.delegate = self
@@ -27,6 +28,7 @@ class ViewController: UIViewController, SHSDelegate {
     }
     
     func didSelect(title: String, index: Int) {
+        label.text = title
         print("title: \(title) index: \(index)")
     }
 
